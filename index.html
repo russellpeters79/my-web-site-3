@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Man and Machine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Man and Machine</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home" data-en="Home" data-fr="Accueil">Home</a></li>
+                    <li><a href="#about" data-en="About" data-fr="À propos">About</a></li>
+                    <li><a href="#services" data-en="Services" data-fr="Services">Services</a></li>
+                    <li><a href="#gallery" data-en="Gallery" data-fr="Galerie">Gallery</a></li>
+                    <li><a href="#contact" data-en="Contact" data-fr="Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="language-switcher">
+                <img src="images/flag_en.png" alt="English" id="en" class="flag">
+                <img src="images/flag_fr.png" alt="Français" id="fr" class="flag">
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section id="home" class="hero services"> <!-- Updated class to include 'services' -->
+            <div class="container">
+                <h2 id="home-title" data-en="Welcome to Man and Machine" data-fr="Bienvenue chez Man and Machine">Welcome to Man and Machine</h2>
+                <p id="home-text" data-en="Your success is our mission. Explore our services and get in touch." data-fr="Votre succès est notre mission. Explorez nos services et contactez-nous.">Your success is our mission. Explore our services and get in touch.</p>
+                <a href="#contact" class="btn" id="home-btn" data-en="Contact Us" data-fr="Contactez-nous">Contact Us</a>
+            </div>
+        </section>
+        
+        <section id="about" class="about">
+            <div class="container">
+                <h2 id="about-title" data-en="About Us" data-fr="À propos de nous">About Us</h2>
+                <p id="about-text" data-en="We provide top-notch excavation, paving, drainage, landscaping, and retaining wall services." data-fr="Nous fournissons des services de creusement, pavage, drainage, aménagement paysager et murs de soutènement de premier ordre.">We provide top-notch excavation, paving, drainage, landscaping, and retaining wall services.</p>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2 id="services-title" data-en="Our Services" data-fr="Nos Services">Our Services</h2>
+                <ul>
+                    <li data-en="<strong>Excavation:</strong> Precise digging and trenching for foundations, utilities, and landscaping." data-fr="<strong>Excavation:</strong> Creusement et tranchée précis pour les fondations, les utilités et l'aménagement paysager."><strong>Excavation:</strong> Precise digging and trenching for foundations, utilities, and landscaping.</li>
+                    <li data-en="<strong>Paving and Driveways:</strong> Durable and aesthetically pleasing solutions for driveways, patios, and pathways." data-fr="<strong>Pavage et Allées:</strong> Solutions durables et esthétiques pour les allées, les patios et les chemins."><strong>Paving and Driveways:</strong> Durable and aesthetically pleasing solutions for driveways, patios, and pathways.</li>
+                    <li data-en="<strong>Drainage Solutions:</strong> Efficient water management systems to prevent flooding and water damage." data-fr="<strong>Solutions de Drainage:</strong> Systèmes de gestion de l'eau efficaces pour prévenir les inondations et les dégâts d'eau."><strong>Drainage Solutions:</strong> Efficient water management systems to prevent flooding and water damage.</li>
+                    <li data-en="<strong>Landscaping Preparation:</strong> Preparing your garden or outdoor space for beautiful, sustainable landscapes." data-fr="<strong>Préparation Paysagère:</strong> Préparation de votre jardin ou espace extérieur pour des paysages beaux et durables."><strong>Landscaping Preparation:</strong> Preparing your garden or outdoor space for beautiful, sustainable landscapes.</li>
+                    <li data-en="<strong>Retaining Walls:</strong> Robust and attractive walls to support your terrain and enhance your property's appeal." data-fr="<strong>Murs de Soutènement:</strong> Murs robustes et attrayants pour soutenir votre terrain et améliorer l'attrait de votre propriété."><strong>Retaining Walls:</strong> Robust and attractive walls to support your terrain and enhance your property's appeal.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2 id="gallery-title" data-en="Our Work" data-fr="Nos Travaux">Our Work</h2>
+                <div class="gallery-grid">
+                    <img src="images/work1.jpg" alt="Work Image 1">
+                    <img src="images/work2.jpg" alt="Work Image 2">
+                    <img src="images/work3.jpg" alt="Work Image 3">
+                    <img src="images/work4.jpg" alt="Work Image 4">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 id="contact-title" data-en="Contact Us" data-fr="Contactez-nous">Contact Us</h2>
+                <p id="contact-text" data-en="Have questions? Get in touch with us!" data-fr="Vous avez des questions ? Contactez-nous !">Have questions? Get in touch with us!</p>
+                <p id="contact-email" data-en="Email us at: <a href='mailto:russellpeters79@googlemail.com'>russellpeters79@googlemail.com</a>" data-fr="Envoyez-nous un email à : <a href='mailto:russellpeters79@googlemail.com'>russellpeters79@googlemail.com</a>">Email us at: <a href='mailto:russellpeters79@googlemail.com'>russellpeters79@googlemail.com</a></p>
+                <button id="contactButton" class="btn" data-en="Get in Touch" data-fr="Contactez-nous">Get in Touch</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Man and Machine</p>
+        </div>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
